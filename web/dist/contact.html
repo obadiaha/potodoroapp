@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Potodoro</title>
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Space Grotesk', system-ui, sans-serif;
+            background: #0B1013;
+            color: #fff;
+            line-height: 1.7;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 600px;
+            text-align: center;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 40px;
+        }
+        .logo {
+            width: 60px;
+            height: 60px;
+            background: #546A36;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+        }
+        .brand { font-size: 32px; font-weight: 700; }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+            color: #8DB654;
+        }
+        p {
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+        .contact-options {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .contact-card {
+            background: rgba(28, 40, 51, 0.5);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 24px;
+            text-decoration: none;
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+        .contact-card:hover {
+            border-color: #546A36;
+            transform: translateY(-2px);
+        }
+        .contact-card .icon {
+            font-size: 32px;
+            margin-bottom: 12px;
+        }
+        .contact-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 4px;
+        }
+        .contact-card span {
+            color: #8DB654;
+            font-size: 0.95rem;
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #8DB654;
+            text-decoration: none;
+            margin-top: 40px;
+        }
+        .back-link:hover { text-decoration: underline; }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 30px;
+        }
+        .social-link {
+            width: 48px;
+            height: 48px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .social-link:hover {
+            background: #546A36;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🌱</div>
+            <span class="brand">Potodoro</span>
+        </div>
+        
+        <h1>Get in Touch</h1>
+        <p>Have questions, feedback, or just want to say hi? We'd love to hear from you!</p>
+        
+        <div class="contact-options">
+            <a href="mailto:potodoro.app@gmail.com" class="contact-card">
+                <div class="icon">📧</div>
+                <h3>Email Us</h3>
+                <span>potodoro.app@gmail.com</span>
+            </a>
+            
+            <a href="mailto:potodoro.app@gmail.com?subject=Bug Report" class="contact-card">
+                <div class="icon">🐛</div>
+                <h3>Report a Bug</h3>
+                <span>Help us improve Potodoro</span>
+            </a>
+            
+            <a href="mailto:potodoro.app@gmail.com?subject=Feature Request" class="contact-card">
+                <div class="icon">💡</div>
+                <h3>Feature Request</h3>
+                <span>Share your ideas</span>
+            </a>
+        </div>
+        
+        <div class="social-links">
+            <a href="https://twitter.com/potodoroapp" class="social-link" title="Twitter">𝕏</a>
+            <a href="https://instagram.com/potodoroapp" class="social-link" title="Instagram">📸</a>
+        </div>
+        
+        <a href="/" class="back-link">← Back to Home</a>
+    </div>
+</body>
+</html>
+
