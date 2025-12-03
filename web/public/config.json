@@ -1,0 +1,24 @@
+{
+  "sale": {
+    "active": true,
+    "title": "🚀 Launch Sale",
+    "subtitle": "75% OFF Lifetime Pro",
+    "endDate": "2025-12-31T23:59:59Z",
+    "badgeText": "LIMITED TIME"
+  },
+  "announcements": {
+    "active": false,
+    "message": "",
+    "type": "info"
+  },
+  "features": {
+    "showReferralProgram": false,
+    "showSeasonalTheme": false
+  },
+  "version": {
+    "minimum": "1.0.0",
+    "latest": "1.0.0",
+    "updateMessage": "A new version is available with bug fixes and improvements."
+  }
+}
+
