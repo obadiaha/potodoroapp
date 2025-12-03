@@ -4,7 +4,8 @@
     "title": "🚀 Launch Sale",
     "subtitle": "75% OFF Lifetime Pro",
     "endDate": "2025-12-31T23:59:59Z",
-    "badgeText": "LIMITED TIME"
+    "badgeText": "LIMITED TIME",
+    "originalPrice": "$19.99"
   },
   "announcements": {
     "active": false,

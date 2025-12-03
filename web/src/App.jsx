@@ -210,7 +210,7 @@ function App() {
             <div className="flex items-center gap-8 text-sm text-white/50">
               <a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a>
               <a href="/terms" className="hover:text-white transition-colors">Terms of Service</a>
-              <a href="mailto:potodoro.app@gmail.com" className="hover:text-white transition-colors">Contact</a>
+              <a href="mailto:hello@potodoro.com" className="hover:text-white transition-colors">Contact</a>
             </div>
             
             <p className="text-sm text-white/30">
